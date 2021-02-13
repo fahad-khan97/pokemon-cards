@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <title>Gotta catch 'em all!</title>
+</head>
+
+<style>
+    img.pokemon {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+</style>
+
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 ml-auto mr-auto text-center">
+                    <h3 class="mb-3">
+                        <img src="./Data/images/logo.png" alt="Gotta catch'em all" style="width: 60px; height: 50px;"><br>
+                        Pokemon Cards Viewer
+                    </h3>
+                <div class="form-group">
+                    <input type="text" id="search" class="form-control form-control-lg" placeholder="Enter Text...">
+                </div>
+                <div id="match-list"></div>
+            </div>
+        </div>
+        <div id="cards" class="row justify-content-around"></div>
+    </div>
+    <script src="JS/main.js"></script>
+</body>
+</html>
